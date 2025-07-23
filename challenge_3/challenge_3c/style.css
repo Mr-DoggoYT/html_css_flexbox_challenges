@@ -8,11 +8,29 @@ img {
 }
 
 div div {
+	display: flex;
 	margin: auto;
-	width: 33%;
-	height: 250px;
+	width: 75%;
+	height: 125px;
 }
 
 #big_div {
 	border: 5px solid black;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#sub_div1 {
+	justify-content: flex-start;
+	align-self: flex-start;
+}
+
+#sub_div2 {
+	justify-content: center;
+	align-self: center;
+}
+
+#sub_div3 {
+	justify-content: flex-end;
+	align-self: flex-end;
 }
